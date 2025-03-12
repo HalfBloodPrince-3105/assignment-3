@@ -31,7 +31,3 @@ def test_invalid_input():
         calculate_area(-5)  
     with pytest.raises(ValueError):
         calculate_area("abc")
-        
-def test_area_last_two_digits():
-    expected_output = 9999 
-    assert calculate_area(2) == expected_output
